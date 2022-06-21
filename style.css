@@ -161,15 +161,45 @@ nav ul {
     margin: 20px auto 30px auto;
     width: 40%;
 }
+.schedule-table {
+    margin: 0 auto 40px auto;
+    font-size: 1.5em;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+}
+.schedule-table th,
+td {
+    border-bottom: solid 1px black;
+}
+.slot-form-container {
+    width: 40%;
+    margin: 18px auto 0 auto;
+    font-size: 1.5em;
+    text-align: center;
+}
+.slot-form-container label {
+    line-height: 15px;
+    margin: 5px;
+}
+.slot-form-container input,
+select {
+    height: 20px;
+    outline: none;
+    padding: 1px;
+    width: 100%;
+}
+.slot-form-container button {
+    border: solid 1px black;
+    color: black;
+    background-color: white;
+    padding: 9px;
+    margin-top: 15px;
+}
 .footer {
-    display: flex;
     text-align: center;
     font-size: 1.9em;
     padding: 40px 100px 40px 100px;
     margin-bottom: 25px;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
 }
 .address {
     font-style: normal;
@@ -189,17 +219,13 @@ nav ul {
     margin-top: 0;
     margin-bottom: 0;
 }
-.schedule-table {
-    margin: 0 auto 40px auto;
-    font-size: 1.5em;
-    padding: 5px 10px 5px 10px;
-    text-align: center;
-}
-.schedule-table th,
-td {
-    border-bottom: solid 1px black;
-}
 .map-frame {
     height: 375px;
     width: 60%;
+}
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
 }
