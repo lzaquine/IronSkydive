@@ -169,6 +169,7 @@ nav ul {
     margin-bottom: 25px;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
 }
 .address {
     font-style: normal;
@@ -199,9 +200,6 @@ td {
     border-bottom: solid 1px black;
 }
 .map-frame {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     height: 375px;
     width: 60%;
 }
